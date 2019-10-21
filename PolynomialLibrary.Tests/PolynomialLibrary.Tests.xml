@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolynomialLibrary.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:PolynomialLibrary.Tests.PolinomialTests">
+            <summary>
+            Тестовый класс для Polinomial.
+            </summary>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.PlusOperatorTests(System.Double[],System.Double[],System.Double[])">
+            <summary>
+            Метод тестирует оператор +.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <param name="expected">Ожидаемы результат.</param>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.MinusOperatorTests(System.Double[],System.Double[],System.Double[])">
+            <summary>
+            Метод тестирует оператор -.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <param name="expected">Ожидаемы результат.</param>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.MultiplyOperatorTests(System.Double[],System.Double[],System.Double[])">
+            <summary>
+            Метод тестирует оператор *.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <param name="expected">Ожидаемы результат.</param>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.EqualsOperatorTests(System.Double[],System.Double[],System.Boolean)">
+            <summary>
+            Метод тестирует оператор ==.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <param name="expected">Ожидаемы результат.</param>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.NotEqualsOperatorTests(System.Double[],System.Double[],System.Boolean)">
+            <summary>
+            Метод тестирует оператор !=.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <param name="expected">Ожидаемы результат.</param>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.EqualsTests(System.Double[],System.Double[])">
+            <summary>
+            Метод тестирует идентичность полиномов.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <returns>Возвращает true, если они идентичны, и false, если нет.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Tests.PolinomialTests.ToStringTests(System.Double[])">
+            <summary>
+            Метод тестирует ToString().
+            </summary>
+            <param name="array">Полином.</param>
+            <returns>Строковое представление.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FigureLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:FigureLibrary.Circle">
+            <summary>
+             Класс круг.
+            </summary>
+        </member>
+        <member name="M:FigureLibrary.Circle.#ctor(System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FigureLibrary.Circle"/>.
+            </summary>
+            <param name="radius">Радиус.</param>
+        </member>
+        <member name="M:FigureLibrary.Circle.GetArea">
+            <inheritdoc/>
+        </member>
+        <member name="M:FigureLibrary.Circle.GetPerimeter">
+            <inheritdoc/>
+        </member>
+        <member name="T:FigureLibrary.Figure">
+            <summary>
+            Класс фигур.
+            </summary>
+        </member>
+        <member name="M:FigureLibrary.Figure.GetArea">
+            <summary>
+            Метод возвращает площадь фигуры.
+            </summary>
+            <returns>Площадь.</returns>
+        </member>
+        <member name="M:FigureLibrary.Figure.GetPerimeter">
+            <summary>
+            Метод возвращает периметр фигуры.
+            </summary>
+            <returns>Периметр.</returns>
+        </member>
+        <member name="T:FigureLibrary.Rectangle">
+            <summary>
+            Класс прямоугольник.
+            </summary>
+        </member>
+        <member name="M:FigureLibrary.Rectangle.#ctor(System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FigureLibrary.Rectangle"/>.
+            </summary>
+            <param name="width">Ширина.</param>
+            <param name="height">Высота.</param>
+        </member>
+        <member name="M:FigureLibrary.Rectangle.GetArea">
+            <inheritdoc/>
+        </member>
+        <member name="M:FigureLibrary.Rectangle.GetPerimeter">
+            <inheritdoc/>
+        </member>
+        <member name="T:FigureLibrary.Square">
+            <summary>
+            Класс квадрат.
+            </summary>
+        </member>
+        <member name="M:FigureLibrary.Square.#ctor(System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FigureLibrary.Square"/>.
+            </summary>
+            <param name="side">Стороны.</param>
+        </member>
+        <member name="M:FigureLibrary.Square.GetArea">
+            <inheritdoc/>
+        </member>
+        <member name="M:FigureLibrary.Square.GetPerimeter">
+            <inheritdoc/>
+        </member>
+        <member name="T:FigureLibrary.Triangle">
+            <summary>
+            Класс треугольник.
+            </summary>
+        </member>
+        <member name="M:FigureLibrary.Triangle.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Инициализирует новый экземпляр класса <see cref="T:FigureLibrary.Triangle"/>.
+            </summary>
+            <param name="a">Сторона а.</param>
+            <param name="b">Сторона b.</param>
+            <param name="c">Сторона c.</param>
+        </member>
+        <member name="M:FigureLibrary.Triangle.GetArea">
+            <inheritdoc/>
+        </member>
+        <member name="M:FigureLibrary.Triangle.GetPerimeter">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

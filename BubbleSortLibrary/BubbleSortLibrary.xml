@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BubbleSortLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BubbleSortLibrary.BubbleSort">
+            <summary>
+            Класс для пузырковой сортировки массивов.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.BubbleSort.Sort(System.Int32[][],System.Collections.IComparer)">
+            <summary>
+            Метод "пузырьковой" сортировки для целочисленного массива.
+            </summary>
+            <param name="array">Массив.</param>
+            <param name="comparer">Реализация для сравнении элементов.</param>
+            <exception cref="T:System.ArgumentNullException">Массив или реализация имеет значение null.</exception>
+            <returns>Отсортированный массив.</returns>
+        </member>
+        <member name="M:BubbleSortLibrary.BubbleSort.Swap(System.Int32[]@,System.Int32[]@)">
+            <summary>
+            Меняет местами два индекса в массиве.
+            </summary>
+            <param name="first">Первый индекс.</param>
+            <param name="second">Второй индекс.</param>
+        </member>
+        <member name="T:BubbleSortLibrary.Comparer">
+            <summary>
+            Реализует Icomparer.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Comparer.#ctor(BubbleSortLibrary.IStrategy,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BubbleSortLibrary.Comparer"/> class.
+            </summary>
+            <param name="strategy">strategy.</param>
+            <param name="byAscending">byAscending.</param>
+        </member>
+        <member name="M:BubbleSortLibrary.Comparer.Compare(System.Object,System.Object)">
+            <summary>
+            Метод сравнивает два объекта.
+            </summary>
+            <param name="x">Первый объект.</param>
+            <param name="y">Второй объект.</param>
+            <returns>
+            Возвращает '0', если объекты равны, '1', если первый  объект.
+            больше второго и '-1', если второй объект больше первого.
+            </returns>
+        </member>
+        <member name="T:BubbleSortLibrary.IStrategy">
+            <summary>
+            Интерфейс  для паттерна "Strategy".
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.IStrategy.Algorithm(System.Int32[])">
+            <summary>
+            Этот метод реализует определенный алгоритм.
+            </summary>
+            <param name="array">Массив.</param>
+            <returns>Число для сравнении.</returns>
+        </member>
+        <member name="T:BubbleSortLibrary.SortByMaxOfNumbers">
+            <summary>
+            Реализация алгоритма поиска максимального значения.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.SortByMaxOfNumbers.Algorithm(System.Int32[])">
+            <summary>
+            Метод возвращает максимальное значение в одномерном массиве.
+            </summary>
+            <param name="array">Массив.</param>0
+            <returns>Число.</returns>
+        </member>
+        <member name="T:BubbleSortLibrary.SortByMinOfNumbers">
+            <summary>
+            Реализация алгоритма поиска минимального значения.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.SortByMinOfNumbers.Algorithm(System.Int32[])">
+            <summary>
+            Метод возвращает минимальное значение в одномерном массиве.
+            </summary>
+            <param name="array">Массив.</param>0
+            <returns>Число.</returns>
+        </member>
+        <member name="T:BubbleSortLibrary.SortBySumOfNumbers">
+            <summary>
+            Реализация алгоритма поиска минимального значения.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.SortBySumOfNumbers.Algorithm(System.Int32[])">
+            <summary>
+            Метод возвращает сумму элементов в одномерном массиве.
+            </summary>
+            <param name="array">Массив.</param>0
+            <returns>Сумма.</returns>
+        </member>
+    </members>
+</doc>

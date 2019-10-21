@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BubbleSortLibrary.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:BubbleSortLibrary.Tests.BubbleSortTests">
+            <summary>
+            Тестовый класс для BubbleSort.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Tests.BubbleSortTests.SortAscBySumOfNumbersTests">
+            <summary>
+            Метод тестирует сортировку в порядке возрастания сумм элементов строк матрицы.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Tests.BubbleSortTests.SortDescBySumOfNumbersTests">
+            <summary>
+            Метод тестирует сортировку в порядке убывания сумм элементов строк матрицы.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Tests.BubbleSortTests.SortAscByMaxNumbersTestsTests">
+            <summary>
+            Метод тестирует сортировку в порядке возрастания максимальных элементов строк матрицы.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Tests.BubbleSortTests.SortDescByMaxNumbersTests">
+            <summary>
+            Метод тестирует сортировку в порядке убывания максимальных элементов строк матрицы.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Tests.BubbleSortTests.SortAscByMinNumbersTests">
+            <summary>
+            Метод тестирует сортировку в порядке возрастания минимальных элементов строк матрицы.
+            </summary>
+        </member>
+        <member name="M:BubbleSortLibrary.Tests.BubbleSortTests.SortDescByMinNumbersTests">
+            <summary>
+            Метод тестирует сортировку в порядке убывания минимальных элементов строк матрицы.
+            </summary>
+        </member>
+    </members>
+</doc>

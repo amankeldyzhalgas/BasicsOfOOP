@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PolynomialLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:PolynomialLibrary.Polynomial">
+            <summary>
+            Класс содержит различные операции для полиномов.
+            </summary>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.#ctor(System.Double[])">
+            <summary>
+            Инициализирует новый экземпляр класса.
+            </summary>
+            <param name="polynomial">
+            Полином.
+            </param>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.#ctor(System.Int32)">
+            <summary>
+            Инициализирует новый экземпляр класса.
+            </summary>
+            <param name="degree">
+            Степень.
+            </param>
+        </member>
+        <member name="P:PolynomialLibrary.Polynomial.Item(System.Int32)">
+            <summary>
+            Реализует возвращает элемент по указанному индексу.
+            </summary>
+            <param name="index"> Индекс.</param>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.op_Addition(PolynomialLibrary.Polynomial,PolynomialLibrary.Polynomial)">
+            <summary>
+            Метод возвращает сумму полиномов.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <returns>Сумма полиномов.</returns>
+            <exception cref="T:System.ArgumentNullException">Если один или оба аргумента имеют значение null.</exception>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.op_Subtraction(PolynomialLibrary.Polynomial,PolynomialLibrary.Polynomial)">
+            <summary>
+            Метод возвращает разность полиномов.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <returns>Разность полиномов.</returns>
+            <exception cref="T:System.ArgumentNullException">Если один или оба аргумента имеют значение null.</exception>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.op_UnaryNegation(PolynomialLibrary.Polynomial)">
+            <summary>Метод реализует унарный оператор минус.</summary>
+            <param name="operand">Операнд.</param>
+            <returns>Числовое отрицание полинома.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.op_Multiply(PolynomialLibrary.Polynomial,PolynomialLibrary.Polynomial)">
+            <summary>
+            Метод возвращает результат умножения полиномов.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <returns>Результат умножение многочленов.</returns>
+            <exception cref="T:System.ArgumentNullException">Если один или оба аргумента имеют значение null.</exception>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.op_Equality(PolynomialLibrary.Polynomial,PolynomialLibrary.Polynomial)">
+            <summary>
+            Метод позволяет сравнить два полинома на равенство.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <returns>Возвращает true, если они равны, и false, если нет.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.op_Inequality(PolynomialLibrary.Polynomial,PolynomialLibrary.Polynomial)">
+            <summary>
+            Метод позволяет сравнить два полинома на равенство.
+            </summary>
+            <param name="first">Первый полином.</param>
+            <param name="second">Второй полином.</param>
+            <returns>Возвращает false, если они равны, и true, если нет.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.Equals(PolynomialLibrary.Polynomial)">
+            <summary>
+            Метод проверяет идентичность полиномов.
+            </summary>
+            <param name="obj">Полином.</param>
+            <returns>Возвращает true, если они идентичны, и false, если нет.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.ToString">
+            <summary>
+            Метод возвращает строковое представление объекта.
+            </summary>
+            <returns>Строка.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.Equals(System.Object)">
+            <summary>
+            Метод проверяет идентичность полиномов.
+            </summary>
+            <param name="obj">Полином.</param>
+            <returns>Возвращает true, если они идентичны, и false, если нет.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.GetHashCode">
+            <summary>
+            Метод вычисляет хэш-код для текущего объекта.
+            </summary>
+            <returns>Хэш-код.</returns>
+        </member>
+        <member name="M:PolynomialLibrary.Polynomial.System#ICloneable#Clone">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>
